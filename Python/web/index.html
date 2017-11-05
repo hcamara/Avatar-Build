@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Avatar</title>
+      <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+
+<body>
+	    <video autoplay id="idle" loop>
+			    <source src="videos/idle_demo.mp4" type="video/mp4">	
+                Your browser does not support the video tag. I suggest you upgrade your browser.
+            </video>
+			
+			<video autoplay id="talk" style="display:none;"  loop>
+			    <source src="videos/talk_demo.mp4" type="video/mp4">	
+                Your browser does not support the video tag. I suggest you upgrade your browser.
+            </video>
+		</div>
+		<button class="btn" onclick="vidSwitch()">Switch avatar (idle or talking)</button>
+
+	<script  src="javascripts/video.js"></script>
+	
+
+</body>
+</html>
